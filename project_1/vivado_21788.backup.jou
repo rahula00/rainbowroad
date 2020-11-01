@@ -1,0 +1,126 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Feb 26 04:54:16 2020
+# Process ID: 21788
+# Current directory: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2284 C:\Users\Rahul\Google Drive\UCSC\year 2\Winter Quarter\CSE 100\Lab 7\project_1\project_1.xpr
+# Log file: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_1/vivado.log
+# Journal file: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source simReusable.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+relaunch_sim
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+relaunch_sim
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+relaunch_sim
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+relaunch_sim
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+run 100 ns
+run 100 ns
+run 100 ns
+relaunch_sim
+run 100 ns
+run 100 ns
+run all
+relaunch_sim
+run all
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+run 100 ns
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run all
+close_sim
+launch_simulation
+launch_simulation

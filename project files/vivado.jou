@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Mar 13 21:22:50 2020
+# Process ID: 23976
+# Current directory: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7180 C:\Users\Rahul\Google Drive\UCSC\year 2\Winter Quarter\CSE 100\Lab 7\project_almostdone\project_almostdone.xpr
+# Log file: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/vivado.log
+# Journal file: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source simTop.tcl
+run 13000 ns
+run 13000 ns
+run 13000 ns
+run 13000 us
+run 13000 us
+synth_design -rtl -name rtl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+relaunch_sim
+run 17000 us
+current_design rtl_1
+close_design
+close_design
+synth_design -rtl -name rtl_1

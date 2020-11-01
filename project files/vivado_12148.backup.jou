@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Mar  9 21:10:33 2020
+# Process ID: 12148
+# Current directory: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15124 C:\Users\Rahul\Google Drive\UCSC\year 2\Winter Quarter\CSE 100\Lab 7\project_almostdone\project_almostdone.xpr
+# Log file: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/vivado.log
+# Journal file: C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.xpr}
+update_compile_order -fileset sources_1
+archive_project {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/lab7complete.xpr.zip} -temp_dir {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/.Xil/Vivado-12148-DESKTOP-AN2HNRA} -force -include_local_ip_cache
+archive_project {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/lab7complete.xpr.zip} -temp_dir {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/.Xil/Vivado-12148-DESKTOP-AN2HNRA} -force -include_local_ip_cache
+update_files -from_files {{C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 5/project_test/project_test.srcs/sources_1/imports/new/hex7seg.v}} -to_files {{C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/project_test/project_test.srcs/sources_1/imports/new/hex7seg.v}} -filesets [get_filesets *]
+update_files -from_files {{C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 5/project_test/project_test.srcs/sources_1/new/LFSR.v}} -to_files {{C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/project_test/project_test.srcs/sources_1/new/LFSR.v}} -filesets [get_filesets *]
+add_files -norecurse {{C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/ring_counter.v} {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/hex7seg.v} {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/LFSR.v} {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/Selector.v} {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 5/m8_1.v} {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 4/counterUD16L.v} {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/project_almostdone.srcs/sources_1/imports/CSE 100/Lab 4/edge_detector.v}}
+update_compile_order -fileset sources_1
+import_files
+import_files
+import_files
+import_files
+archive_project {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/lab7complete.xpr.zip} -temp_dir {C:/Users/Rahul/Google Drive/UCSC/year 2/Winter Quarter/CSE 100/Lab 7/project_almostdone/.Xil/Vivado-12148-DESKTOP-AN2HNRA} -force -include_local_ip_cache
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
